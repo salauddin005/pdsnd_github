@@ -151,7 +151,7 @@ def time_stats(df):
     #You will find this in all the functions involving any calculation
     #throughout this program
     print(f"\nThis took {(time.time() - start_time)} seconds.")
-    print('-'*80)
+    print('-'*70)
 
 #Function to calculate station related statistics
 def station_stats(df):
@@ -187,7 +187,7 @@ def station_stats(df):
     print(f"\nThe most frequent combination of trips are from {combo}.")
 
     print(f"\nThis took {(time.time() - start_time)} seconds.")
-    print('-'*80)
+    print('-'*70)
 
 #Function for trip duration related statistics
 def trip_duration_stats(df):
@@ -223,7 +223,7 @@ def trip_duration_stats(df):
         print(f"\nThe average trip duration is {mins} minutes and {sec} seconds.")
 
     print(f"\nThis took {(time.time() - start_time)} seconds.")
-    print('-'*80)
+    print('-'*70)
 
 #Function to calculate user statistics
 def user_stats(df):
@@ -266,7 +266,7 @@ def user_stats(df):
         print("There are no birth year details in this file.")
 
     print(f"\nThis took {(time.time() - start_time)} seconds.")
-    print('-'*80)
+    print('-'*70)
 
 #Function to display the data frame itself as per user request
 def display_data(df):
@@ -306,7 +306,7 @@ def display_data(df):
         elif rdata != "yes":
              break
 
-    print('-'*80)
+    print('-'*70)
 
 #Main function to call all the previous functions
 def main():
