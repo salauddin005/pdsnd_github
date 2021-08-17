@@ -9,7 +9,7 @@ Bikeshare Udacity Project
 ### Description
 The project lets user get statistics from the rider's details
 
-### Files used
+### Data Files used
 chicago.csv
 new_york_city.csv
 washington.csv
