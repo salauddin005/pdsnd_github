@@ -70,7 +70,7 @@ def get_filters():
 
     print(f"\nYou have chosen {day.title()} as your day.")
     print(f"\nYou have chosen to view data for city: {city.upper()}, month/s: {month.upper()} and day/s: {day.upper()}.")
-    print('-'*80)
+    print('-'*70)
     #Returning the city, month and day selections
     return city, month, day
 
